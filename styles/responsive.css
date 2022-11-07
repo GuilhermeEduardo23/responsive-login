@@ -1,0 +1,33 @@
+@media only screen and (max-width: 950px) {
+    .screen-login {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        flex-direction: column;
+    }
+
+    .left-login > h1 {
+        display: none;
+    }
+
+    .left-login {
+        width: 100%;
+        height: auto;
+    }
+
+    .right-login {
+        width: 100%;
+        height: auto;
+    }
+    
+    .left-login > img {
+        width: 60vw;
+    }
+
+    .screen-login {
+        width: 90%;
+    }
+}
